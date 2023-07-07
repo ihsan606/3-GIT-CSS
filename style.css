@@ -1,0 +1,80 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #121212;
+}
+
+.container {
+    display: flex;
+    margin-left: 200px;
+}
+
+.most-played {
+    padding: 20px 100px;
+}
+
+.all-songs {
+    padding: 20px 100px;
+    clear: both;
+}
+
+.most-played h3 {
+    color: white;
+}
+
+.all-songs h3 {
+    color: white;
+}
+.card-song {
+    background-color: rgb(54, 54, 54);
+    margin: 20px 10px;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: #221e1e;
+    color: #cdcdcd;
+
+}
+
+
+
+.gambar {
+    width: 80px;
+    height: 80px;
+    background-color: gray;
+}
+
+.most-played li {
+    float: left;
+    list-style: none;
+}
+
+.all-songs li {
+    list-style: none;
+}
+
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 196px;
+    background-color: #000000;
+    padding: 24px;
+  }
+  .sidebar .logo img {
+    width: 130px;
+  }
+  .sidebar .navigation ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  .sidebar .navigation ul li {
+    padding: 10px 0px;
+  }
+  .sidebar .navigation ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+  }
+ 
